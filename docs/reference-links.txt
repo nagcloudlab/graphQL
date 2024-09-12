@@ -1,2 +1,8 @@
 
+
+Express.js
 https://drive.google.com/file/d/1SC4DlatLZL1ryLrnfIaBeDpv3nDw7XWP/view?usp=sharing
+
+
+GraphQL notes
+https://nagcloudlab.notion.site/GraphQL-bdeda29772e94043b2518b630bb6fb75?pvs=4
