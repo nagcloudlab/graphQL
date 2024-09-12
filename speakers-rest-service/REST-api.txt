@@ -1,0 +1,79 @@
+
+------------------------------------------------------------
+design REST API for Speaker resource
+------------------------------------------------------------
+
+1. Identify the resource(s)
+
+    - Speaker
+
+2. Identify the operations
+
+    - Speaker
+        - create
+        - read
+        - update
+        - delete
+
+3. Identify the URI
+
+    - /api/v1/speakers
+    - /api/v1/speakers?category=java&limit=10&offset=0
+    - /api/v1/speakers/{id}
+
+4. Identify the HTTP methods
+
+    - POST (create)
+    - GET (read)
+    - PUT (create or update)
+    - PATCH (partial update)
+    - DELETE (delete)
+    - OPTIONS ( to read the supported methods)
+    - HEAD (to read the headers)
+
+5. Identify the request/response format / media type / content type / representation
+
+    - JSON
+    - XML   
+    - HTML
+    - Plain Text
+    - Binary
+
+6. Identify the status codes
+
+  1xx - Informational
+  2xx - Success
+  3xx - Redirection
+  4xx - Client Error
+  5xx - Server Error
+    
+    - 200 OK
+    - 201 Created
+    - 204 No Content
+    - 400 Bad Request
+    - 401 Unauthorized
+    - 403 Forbidden
+    - 404 Not Found
+    - 405 Method Not Allowed
+    - 500 Internal Server Error
+
+7. Identify the error codes
+
+    - 400 Bad Request
+    - 401 Unauthorized
+    - 403 Forbidden
+    - 404 Not Found
+    - 405 Method Not Allowed
+    - 500 Internal Server Error
+
+------------------------------------------------------------
+implement REST API for Speaker resource
+------------------------------------------------------------
+
+language  : Javascipt/Typescript
+framework : Express.js / Restify / Hapi.js / Koa.js
+runtime   : Node.js
+rest-api-doc : Swagger / OpenAPI / RAML / API Blueprint
+rest-api-client : Postman / Insomnia / curl
+
+------------------------------------------------------------
