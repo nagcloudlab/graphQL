@@ -1,0 +1,21 @@
+{
+  "name": "sessions-graphql-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "apollo-datasource": "^3.3.1",
+    "apollo-datasource-rest": "^3.5.1",
+    "apollo-server": "^3.6.2",
+    "axios": "^0.26.0",
+    "graphql": "^16.3.0",
+    "lodash": "^4.17.21",
+    "node-fetch": "^2.7.0",
+    "nodemon": "^3.1.4"
+  },
+  "author": "",
+  "license": "ISC"
+}
