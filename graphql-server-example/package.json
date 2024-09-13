@@ -2,16 +2,18 @@
   "name": "graphql-server-example",
   "version": "1.0.0",
   "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "type": "module",
-  "scripts": {},
   "dependencies": {
     "@apollo/server": "^4.11.0",
     "@graphql-tools/schema": "^10.0.6",
     "@graphql-tools/utils": "^10.5.4",
-    "apollo-server": "^3.13.0",
-    "graphql": "^16.9.0",
-    "graphql-subscriptions": "^2.0.0",
-    "graphql-ws": "^5.16.0",
-    "ws": "^8.18.0"
+    "graphql": "^16.9.0"
   }
 }
