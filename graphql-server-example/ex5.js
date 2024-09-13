@@ -6,11 +6,11 @@ import { startStandaloneServer } from "@apollo/server/standalone";
 
 const typeDefs = `#graphql
   # Define custom directive
-  directive @uppercase on FIELD_DEFINITION
+  directive @uppercase on QUERY | FIELD_DEFINITION
 
   # Define schema using the @uppercase directive
   type Query {
-    hello: String @uppercase
+    hello: String
   }
 `;
 
